@@ -50,7 +50,3 @@ window.addEventListener('scroll', () => {
     }
 })
 getPhotos();
-
-
-
-
