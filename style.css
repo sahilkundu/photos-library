@@ -1,54 +1,54 @@
-html{
+html {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: whitesmoke;
     font-weight: 800;
     font-size: 2rem;
     color: rgb(13, 13, 13);
 }
-h1{
+
+h1 {
     padding: 2px;
     text-align: center;
     letter-spacing: 9px;
 }
-.img-container{
+
+.img-container {
     margin: 10px 31%;
 }
-img{
+
+img {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-@media screen and (max-width:600px){
-    h1{
-        font-size: 1.6rem;
-    }
-    .img-container{
-        margin: 3px 16%;
-    }
-}
-@media screen and (max-width:1000px){
-    h1{
+@media screen and (max-width:1000px) {
+    h1 {
         font-size: 2.1rem;
     }
-    .img-container{
+
+    .img-container {
         margin: 3px 25%;
     }
 }
-@media screen and (max-width:339px){
-    h1{
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    .img-container {
+        margin: 1px 19%;
+    }
+}
+
+@media screen and (max-width:339px) {
+    h1 {
         font-size: 1rem;
     }
-    .img-container{
+
+    .img-container {
         margin: 3px 1%;
     }
 }
